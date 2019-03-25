@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.ttn.assignment.Services.Impl.StudentClassServiceImpl" immediate="true" activate="activate">
-  <implementation class="com.ttn.assignment.Services.Impl.StudentClassServiceImpl"/>
-  <service>
-    <provide interface="com.ttn.assignment.Services.StudentClassService"/>
-  </service>
-  <property name="classLimit" type="Integer" value="30"/>
-  <property name="passingMarks" type="Integer" value="40"/>
-</scr:component>
